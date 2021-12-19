@@ -33,7 +33,7 @@ namespace qotd_csharp.Controllers
 
         [HttpGet]
         public string Index() {
-            return "qotd microservice. Check out the code at: https://github.com/donschenck/qotd-csharp";
+            return "This is Vishal. qotd microservice. Check out the code at: https://github.com/donschenck/qotd-csharp";
         }
 
         [HttpGet("quotes")]
